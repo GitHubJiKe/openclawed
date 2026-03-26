@@ -30,6 +30,12 @@ find . -type f -name "article.md" | while read -r file; do
         # 执行发布命令
         if wenyan publish -f "$clean_file"; then
             echo "✅ 成功发布: $clean_file"
+            
+            # 自动执行 Git 提交流程
+            folder_name=$(basename "$clean_dir")
+            echo "📦 正在执行 Git 提交: $folder_name"
+            git add "$clean_dir"
+            git commit -m "docs: 发布文章 $folder_name"
         else
             echo "❌ 发布失败: $clean_file"
         fi
@@ -37,3 +43,7 @@ find . -type f -name "article.md" | while read -r file; do
 done
 
 echo "🎉 所有新增文章处理完成。"
+
+# 推送所有提交到远程仓库
+echo "🚀 将本地提交推送到远程仓库..."
+git push
