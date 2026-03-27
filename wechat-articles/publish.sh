@@ -28,7 +28,7 @@ find . -type f -name "article.md" | while read -r file; do
         echo "🚀 发现新增文章: $clean_file，准备发布..."
         
         # 执行发布命令
-        if wenyan publish -f "$clean_file"; then
+        if wenyan publish -f "$clean_file" < /dev/null; then
             echo "✅ 成功发布: $clean_file"
             
             # 自动执行 Git 提交流程
