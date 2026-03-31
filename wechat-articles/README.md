@@ -30,3 +30,7 @@
 
 ### 🏍️ [领先4秒却“查无此车”：张雪机车在葡萄牙把西方导播干碎了](zhang-xue-motorcycle-wsbk-win/article.md)
 
+### 💤 [Seedance 2.0：AI还没颠覆世界，先颠覆了人类的生物钟](seedance-3am-crunch/article.md)
+
+### 🍏 [「Apple Intelligence」意外上线又闪退：库克，你是认真的还是给猴子发糖吃？](apple-ai-china-ghost-launch/article.md)
+

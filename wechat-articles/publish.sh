@@ -46,4 +46,6 @@ echo "🎉 所有新增文章处理完成。"
 
 # 推送所有提交到远程仓库
 echo "🚀 将本地提交推送到远程仓库..."
+git add --all
+git commit -m "docs: 发布文章"
 git push
