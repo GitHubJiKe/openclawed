@@ -34,3 +34,5 @@
 
 ### 🍏 [「Apple Intelligence」意外上线又闪退：库克，你是认真的还是给猴子发糖吃？](apple-ai-china-ghost-launch/article.md)
 
+
+### 💊 [约谈三巨头：算法很牛逼，为何分不清澳洲保健品和安徽汽修厂？] (usual-health-supplement-scandal/article.md)
