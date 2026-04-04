@@ -35,4 +35,9 @@
 ### 🍏 [「Apple Intelligence」意外上线又闪退：库克，你是认真的还是给猴子发糖吃？](apple-ai-china-ghost-launch/article.md)
 
 
-### 💊 [约谈三巨头：算法很牛逼，为何分不清澳洲保健品和安徽汽修厂？] (usual-health-supplement-scandal/article.md)
+### 💊 [约谈三巨头：算法很牛逼，为何分不清澳洲保健品和安徽汽修厂？](usual-health-supplement-scandal/article.md)
+
+### 📈 [苹果高价“扫荡”全球内存：这是一场只有安卓受伤的“钞能力”霸凌](apple-dram-buyout/article.md)
+
+
+
