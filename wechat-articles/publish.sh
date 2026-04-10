@@ -19,9 +19,9 @@ find . -type f -name "article.md" | while read -r file; do
     # 如果 git log 输出为空，说明该文件没有历史提交记录，即为“新增”文件
     if [ -z "$(git log -1 --oneline -- "$clean_file" 2>/dev/null)" ]; then
         
-        # 检查是否包含 cover.png
-        if [ ! -f "$clean_dir/cover.png" ]; then
-            echo "⚠️  警告: 新增文章 [$clean_file] 缺少对应的 [$clean_dir/cover.png] 图片，跳过发布。"
+        # 检查是否包含 cover.png 或 cover.jpg
+        if [ ! -f "$clean_dir/cover.png" ] && [ ! -f "$clean_dir/cover.jpg" ]; then
+            echo "⚠️  警告: 新增文章 [$clean_file] 缺少对应的 cover 图片（.png 或 .jpg），跳过发布。"
             continue
         fi
         
